@@ -1,3 +1,21 @@
+/*Write a code to sort the elements firstly according to num of problems solved. If number of
+problems solved is equal then according to cgpa, if cgpa is equal then according to their
+registration number.
+Input:
+The number in the first line means number of students. Then each line of input has 3 numbers. The first
+number represents the registration number, the second number represents the number of solved
+problems and the third number represents the cgpa of the students.
+4
+1 200 3.99
+4 400 3.77
+2 1000 3.55
+33 1000 3.62
+Output:
+33 1000 3.62
+2 1000 3.55
+4 400 3.77
+1 200 3.99 */
+
 #include<stdio.h>
 
 typedef struct {
