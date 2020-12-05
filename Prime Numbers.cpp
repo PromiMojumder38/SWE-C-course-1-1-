@@ -1,3 +1,12 @@
+/* Write a code to print the prime numbers within a given of 1 to n.
+Input:
+10
+Output:
+2
+3
+5
+7 */
+
 #include<stdio.h>
 
 int prime(int n)
