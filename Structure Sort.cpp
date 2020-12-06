@@ -65,7 +65,7 @@ int main()
 	{
 		for(j = i + 1; j < n; j++)
 		{
-			if(student[i].cgpa == student[j].cgpa)
+			if(student[i].cgpa == student[j].cgpa && student[i].solvedPrb < student[j].solvedPrb)
 			{
 				if(student[i].regNo > student[j].regNo)
 				{
@@ -79,4 +79,3 @@ int main()
 	printf("\n");
 	for(int i = 0; i < n; i++) printf("%d %d %.2lf\n", student[i].regNo, student[i].solvedPrb, student[i].cgpa);
 }
-
